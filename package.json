@@ -1,0 +1,19 @@
+{
+  "name": "app-server",
+  "version": "0.0.1",
+  "description": "server",
+  "main": "index.js",
+  "type": "module",
+  "author": "Giovanni Insfran",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node ./index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^3.3.0",
+    "apollo-server-core": "^3.3.0",
+    "dotenv": "^10.0.0",
+    "graphql": "^15.6.0",
+    "mongoose": "^6.0.8"
+  }
+}
